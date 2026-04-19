@@ -6,105 +6,124 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h5>What Skills I have</h5>
-      <h2>My Experienc</h2>
+      <h2>My Experience</h2>
+
       <div className='container experience__container'>
+
         <div className='experience__frontend'>
           <h3>FrontEnd Development</h3>
+
           <div className='experience__content'>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
+              <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
-                <FontAwesome className='experience__details-icons' name="check" size="2x" />
                 <h4>React</h4>
+                <small className='text-light'>Experienced</small>
               </div>
-              <small className='text-light'>Experienced</small>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>HTML</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>CSS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
-                <h4>BootStrap</h4>
+                <h4>Bootstrap</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>Tailwind</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+
           </div>
         </div>
-        {/* End of the Front End  */}
+
+        {/* Backend */}
         <div className='experience__backend'>
-          <h3> BackEnd Development</h3>
+          <h3>BackEnd Development</h3>
+
           <div className='experience__content'>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>.NET Core</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>ASP.NET MVC</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>Entity Framework</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>SQL Server</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>ASP.NET Web API</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experienc__details'>
+
+            <article className='experience__details'>
               <FontAwesome className='experience__details-icons' name="check" size="2x" />
               <div>
                 <h4>Problem Solving</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+
           </div>
         </div>
-      </div>
 
+      </div>
     </section>
   )
 }
