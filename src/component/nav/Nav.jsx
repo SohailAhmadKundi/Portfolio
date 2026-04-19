@@ -10,9 +10,9 @@ const Nav = () => {
     <nav>
 
       <a
-        href='#'
-        onClick={() => setActiveNav('#')}
-        className={activeNav === '#' ? 'active' : ''}
+        href='#home'
+        onClick={() => setActiveNav('#home')}
+        className={activeNav === '#home' ? 'active' : ''}
       >
         <FontAwesome name="home" size="2x" />
       </a>
