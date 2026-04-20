@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import FontAwesome from 'react-fontawesome';
+import {BsPatchCheckFill} from 'react-icons/bs'
 
 const Experience = () => {
   return (
@@ -16,7 +16,7 @@ const Experience = () => {
           <div className='experience__content'>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>React</h4>
                 <small className='text-light'>Experienced</small>
@@ -24,7 +24,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>HTML</h4>
                 <small className='text-light'>Experienced</small>
@@ -32,7 +32,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>CSS</h4>
                 <small className='text-light'>Experienced</small>
@@ -40,7 +40,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Experienced</small>
@@ -48,7 +48,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>Bootstrap</h4>
                 <small className='text-light'>Experienced</small>
@@ -56,7 +56,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>Tailwind</h4>
                 <small className='text-light'>Experienced</small>
@@ -73,7 +73,7 @@ const Experience = () => {
           <div className='experience__content'>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>.NET Core</h4>
                 <small className='text-light'>Experienced</small>
@@ -81,7 +81,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>ASP.NET MVC</h4>
                 <small className='text-light'>Experienced</small>
@@ -89,7 +89,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>Entity Framework</h4>
                 <small className='text-light'>Experienced</small>
@@ -97,7 +97,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>SQL Server</h4>
                 <small className='text-light'>Experienced</small>
@@ -105,7 +105,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>ASP.NET Web API</h4>
                 <small className='text-light'>Experienced</small>
@@ -113,7 +113,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FontAwesome className='experience__details-icons' name="check" size="2x" />
+              <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>Problem Solving</h4>
                 <small className='text-light'>Experienced</small>
