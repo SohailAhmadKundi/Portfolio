@@ -14,7 +14,7 @@ const HeaderSocials = () => {
       </a>
 
       <a
-        href='https://github.com/sohailahmad123456789'
+        href='https://github.com/SohailAhmadKundi'
         target="_blank"
         rel="noreferrer"
       >
@@ -22,7 +22,7 @@ const HeaderSocials = () => {
       </a>
 
       <a
-        href='https://www.facebook.com/sohailahmad123456789'
+        href='https://www.facebook.com/sohail.kundi.ahmad'
         target="_blank"
         rel="noreferrer"
       >

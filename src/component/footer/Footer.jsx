@@ -20,7 +20,7 @@ const Footer = () => {
       <div className='footer__socials'>
 
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/sohail.kundi.ahmad"
           target="_blank"
           rel="noreferrer"
         >
