@@ -5,15 +5,9 @@ import FontAwesome from 'react-fontawesome';
 
 const About = () => {
   return (
-    <section className="about">
+    <section id='about'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-      <p>
-        I'm a Full Stack Developer with 3+ years of experience,
-        specializing in building modern, responsive frontends with React while also delivering solid backend solutions using .NET Core and ASP.NET Web API.
-        I care deeply about writing clean, maintainable code — the kind that's easy to understand six months later.
-        Whether it's a pixel-perfect UI or a well-structured REST API, I focus on building things that work reliably and scale gracefully.
-      </p>
 
       <div className="container about__container">
 
