@@ -11,7 +11,7 @@ const Experience = () => {
       <div className='container experience__container'>
 
         <div className='experience__frontend'>
-          <h3>FrontEnd Development</h3>
+          <h3>Frontend Development</h3>
 
           <div className='experience__content'>
 
@@ -19,23 +19,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icons' />
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icons' />
-              <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
 
@@ -43,7 +27,23 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Advanced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icons' />
+              <div>
+                <h4>HTML & CSS</h4>
+                <small className='text-light'>Advanced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icons' />
+              <div>
+                <h4>Tailwind CSS</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
 
@@ -51,15 +51,15 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icons' />
               <div>
-                <h4>Tailwind</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Git</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
 
@@ -68,7 +68,7 @@ const Experience = () => {
 
         {/* Backend */}
         <div className='experience__backend'>
-          <h3>BackEnd Development</h3>
+          <h3>Backend Development</h3>
 
           <div className='experience__content'>
 
@@ -76,31 +76,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>.NET Core</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icons' />
-              <div>
-                <h4>ASP.NET MVC</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icons' />
-              <div>
-                <h4>Entity Framework</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icons' />
-              <div>
-                <h4>SQL Server</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
 
@@ -108,20 +84,45 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div>
                 <h4>ASP.NET Web API</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icons' />
               <div>
-                <h4>Problem Solving</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Entity Framework</h4>
+                <small className='text-light'>Advanced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icons' />
+              <div>
+                <h4>SQL Server</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icons' />
+              <div>
+                <h4>ASP.NET MVC</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icons' />
+              <div>
+                <h4>REST API Design</h4>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
 
           </div>
         </div>
+
 
       </div>
     </section>
