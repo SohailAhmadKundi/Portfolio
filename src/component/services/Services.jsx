@@ -10,53 +10,51 @@ const Services = () => {
 
       <div className='container services__container'>
 
-        {/* UI/UX Design */}
+        {/* Frontend Development */}
         <article className='service'>
           <div className='service__head'>
-            <h3>UI/UX Design</h3>
+            <h3>Frontend Development</h3>
           </div>
 
           <ul className='service__list'>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>User Interface (UI) Design for web and mobile.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>User Experience (UX) Research and Analysis.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Wireframing and High-Fidelity Prototyping.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Mobile-First and Responsive Design approach.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Interactive Design and Animations.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Visual Branding and Design Systems.</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Responsive web apps built with React</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Component-based UI architecture</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Integration with REST APIs and backend services</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Mobile-first, cross-browser compatible interfaces</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Performance optimization and lazy loading</p></li>
           </ul>
         </article>
 
-        {/* Web Development */}
+        {/* Backend Development */}
         <article className='service'>
           <div className='service__head'>
-            <h3>Web Development</h3>
+            <h3>Backend Development</h3>
           </div>
 
           <ul className='service__list'>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Custom Web Application Development with React.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Robust Backend Solutions using .NET Core.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>RESTful API Development and Integration.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Database Design and SQL Server Optimization.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Performance Tuning and Scalability Solutions.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Secure Authentication and Authorization logic.</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>RESTful API design and development with .NET Core</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Database modeling and optimization with SQL Server</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Authentication & authorization (JWT, Bearer tokens)</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Clean architecture and maintainable codebase structure</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Third-party API and service integrations</p></li>
           </ul>
         </article>
 
-        {/* Content Creation */}
+        {/* Full Stack Web Applications */}
         <article className='service'>
           <div className='service__head'>
-            <h3>Content Creation</h3>
+            <h3>Full Stack Web Applications</h3>
           </div>
 
           <ul className='service__list'>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Technical Documentation for developers.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Project Case Studies and Analysis.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>API Design Specifications and Documentation.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Technical Blogging on Web Technologies.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Content Strategy for Digital Products.</p></li>
-            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Clean README files for projects.</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>End-to-end web application development</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>React frontend + .NET Core backend solutions</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Deployment and hosting setup (Vercel, Azure)</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Code review, refactoring, and technical debt cleanup</p></li>
+            <li><FontAwesome className='service__list-icon' name="check" size="1x" /> <p>Ongoing maintenance and feature development</p></li>
           </ul>
         </article>
+
 
       </div>
     </section>
