@@ -24,7 +24,7 @@ const About = () => {
             <article className="about__card">
               <FontAwesome name="star" size="2x" />
               <h5>Experience</h5>
-              <small>4+ year Experience in .Net Core</small>
+              <small>9+ years Experience in .Net Core</small>
             </article>
 
             <article className="about__card">
